@@ -1,3 +1,23 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Custom styles */
+.navbar {
+  background-color: #38b2ac;
+}
+
+.nav-link {
+  margin: 0 1rem;
+  color: #fff;
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+}
+
+.bg-lavender-100 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(190	226	218 / var(--tw-bg-opacity));
+}
